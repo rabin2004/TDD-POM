@@ -16,7 +16,8 @@ public class TestBase {
 	public TestBase() {
 		prop = new Properties();
 		try {
-			FileInputStream file = new FileInputStream("C:\\Users\\User\\Desktop\\eclipse\\August2nd\\src\\main\\java\\property\\config.properties");
+			FileInputStream file = new FileInputStream("C:\\Users\\User\\Desktop\\eclipse\\August2nd"
+					+ "\\src\\main\\java\\property\\config.properties");
 			prop.load(file);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

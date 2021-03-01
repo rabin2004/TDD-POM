@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="classes" name="Failed suite [MiniRegression]" guice-stage="DEVELOPMENT">
+  <test thread-count="4" parallel="classes" name="SmokeTesting(failed)">
+    <classes>
+      <class name="test.HomePageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="signOnlinkTest"/>
+          <include name="RegisterlinkTest"/>
+          <include name="loadBrowser"/>
+        </methods>
+      </class> <!-- test.HomePageTest -->
+    </classes>
+  </test> <!-- SmokeTesting(failed) -->
+</suite> <!-- Failed suite [MiniRegression] -->
